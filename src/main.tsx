@@ -23,6 +23,11 @@ import Books from './components/Books';
 import Alert from './components/Alert';
 import AlertApp from './components/AlertApp';
 
+// Нормалізація стилів
+import 'modern-normalize';
+// Глобальні стилі (додатково)
+import './global.css';
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App />
