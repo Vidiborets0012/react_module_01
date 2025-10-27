@@ -20,11 +20,13 @@ import ReactDOM from 'react-dom/client';
 // import { createRoot } from 'react-dom/client';
 import App from './components/App';
 import Books from './components/Books';
+import Alert from './components/Alert';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App />
     <Books />
+    <Alert />
   </React.StrictMode>
 );
 
