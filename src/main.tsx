@@ -21,12 +21,14 @@ import ReactDOM from 'react-dom/client';
 import App from './components/App';
 import Books from './components/Books';
 import Alert from './components/Alert';
+import AlertApp from './components/AlertApp';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App />
     <Books />
     <Alert />
+    <AlertApp />
   </React.StrictMode>
 );
 
