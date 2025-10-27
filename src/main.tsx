@@ -23,6 +23,7 @@ import Books from './components/Books';
 import Alert from './components/Alert';
 import AlertApp from './components/AlertApp';
 import ButtonApp from './components/ButtonApp';
+import UserMenu from './components/UserMenu';
 
 // Нормалізація стилів
 import 'modern-normalize';
@@ -37,6 +38,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Alert />
     <AlertApp />
     <ButtonApp />
+    <UserMenu name="Ім'я Користувача" />
   </React.StrictMode>
 );
 
