@@ -9,7 +9,19 @@ const books: Book[] = [
   { id: 'id-3', name: 'React Query overview' },
 ];
 
-export default function App() {
+// export default function App() {
+//   return (
+//     <>
+//       <h1>Books of the week</h1>
+//       <ul>
+//         {books.map(book => (
+//           <li key={book.id}>{book.name}</li>
+//         ))}
+//       </ul>
+//     </>
+//   );
+// }
+export default function Books() {
   return (
     <>
       <h1>Books of the week</h1>

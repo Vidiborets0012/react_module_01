@@ -15,15 +15,17 @@
 //   </div>
 // );
 
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-import { createRoot } from 'react-dom/client';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// import { createRoot } from 'react-dom/client';
 import App from './components/App';
+import Books from './components/Books';
 
-// ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+    <Books />
+  </React.StrictMode>
+);
 
-createRoot(document.getElementById('root') as HTMLElement).render(<App />);
+// createRoot(document.getElementById('root') as HTMLElement).render(<App />);
